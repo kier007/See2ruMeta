@@ -83,10 +83,11 @@ The H.264 video compression standard, utilized by WebRTC, relies on the 2D Discr
 
 For an $N \times N$ block of pixels, the DCT is defined as:
 
-$$ G_{u,v} = \frac{2}{N} C(u)C(v) \sum_{x=0}^{N-1} \sum_{y=0}^{N-1} f(x,y) \cos\left(\frac{(2x+1)u\pi}{2N}\right) \cos\left(\frac{(2y+1)v\pi}{2N}\right) $$
+$$G_{u,v} = \frac{2}{N} C(u)C(v) \sum_{x=0}^{N-1} \sum_{y=0}^{N-1} f(x,y) \cos\left(\frac{(2x+1)u\pi}{2N}\right) \cos\left(\frac{(2y+1)v\pi}{2N}\right)$$
 
-where $$f(x,y)$$ is the pixel intensity at coordinates $$(x,y)$$, and $$C(k)$$ is a compensation factor:
-$$ C(k) = \begin{cases} 1/\sqrt{2} & \text{if } k = 0 \\ 1 & \text{if } k > 0 \end{cases} $$
+where $f(x,y)$ is the pixel intensity at coordinates $(x,y)$, and $C(k)$ is a compensation factor:
+
+$$C(k) = \begin{cases} 1/\sqrt{2} & \text{if } k = 0 \\ 1 & \text{if } k > 0 \end{cases}$$
 
 The resulting coefficients, $G_{u,v}$, are then quantized and entropy-encoded, achieving a high compression ratio.
 
@@ -169,6 +170,7 @@ The See2ruMeta framework represents a significant step forward in the field of p
 <div align="center">
     **See2ruMeta** - An Open-Source Contribution to the Future of Remote Vision
 </div>
+
 
 
 
