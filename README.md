@@ -158,18 +158,10 @@ Future work will focus on the following areas:
 The See2ruMeta framework represents a significant step forward in the field of personal telepresence and provides a solid foundation for future research and development in this exciting domain.
 
 ---
-
-## 7. References
-
-1.  Shannon, C. E. (1948). *A Mathematical Theory of Communication*. Bell System Technical Journal.
-2.  *WebRTC Specification*. World Wide Web Consortium (W3C).
-3.  *H.264/AVC (Advanced Video Coding) Standard*. ITU-T Recommendation H.264.
-4.  *Meta Quest Passthrough API Documentation*. Meta Developer Center.
-
----
 <div align="center">
     **See2ruMeta** - An Open-Source Contribution to the Future of Remote Vision
 </div>
+
 
 
 
