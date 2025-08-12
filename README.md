@@ -135,15 +135,13 @@ The end-to-end latency of the system is the summation of the latencies of each c
 
 Security is a critical consideration for a system that transmits a user's first-person perspective. See2ruMeta's security model is built upon the standards inherent in WebRTC, as illustrated below.
 
-```mermaid
 graph TD
     subgraph "Fig 3: See2ruMeta Security Layers"
-        A[Application Layer] -->|Signaling (HTTPS)| B(Signaling Server)
+        A[Application Layer] -->|"Signaling (HTTPS)"| B(Signaling Server)
         B -->|ICE Negotiation| C(DTLS Handshake)
         C -->|Key Exchange| D(SRTP Encryption)
         D -->|Encrypted Media| E[P2P UDP/RTP Stream]
     end
-```
 
 All media streams are encrypted using **Secure Real-time Transport Protocol (SRTP)**, with the encryption keys being exchanged over a **Datagram Transport Layer Security (DTLS)** handshake. This ensures that the video feed is protected from eavesdropping and tampering.
 
@@ -171,3 +169,4 @@ The See2ruMeta framework represents a significant step forward in the field of p
 <div align="center">
     **See2ruMeta** - An Open-Source Contribution to the Future of Remote Vision
 </div>
+
