@@ -12,7 +12,7 @@
 ### **STEP 1: Prepare Your Quest 3**
 
 1. **On your phone:**
-   - Download "Meta Quest" app from App Store/Play Store
+   - Download "Meta Horizon" app from App Store/Play Store
    - Sign in with your Facebook/Meta account
    - Tap Menu (☰) → Devices
    - Select your Quest 3
@@ -176,3 +176,4 @@ Or I can provide you with pre-built APKs if needed!
 - [ ] Less than 100ms delay
 
 Enjoy your Quest 3 as a wireless camera! 🔮📱
+
